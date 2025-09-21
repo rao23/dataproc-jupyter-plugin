@@ -54,7 +54,7 @@ fields = ["description", "authors", "urls"]
 allow-direct-references = true
 
 [tool.hatch.build.targets.sdist]
-artifacts = ["dataproc_jupyter_plugin/labextension", sparkmonitor_labextension_staging"]
+artifacts = ["dataproc_jupyter_plugin/labextension", "sparkmonitor_labextension_staging"]
 exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
