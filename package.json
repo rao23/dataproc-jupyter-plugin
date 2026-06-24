@@ -62,7 +62,7 @@
         "build-storybook": "storybook build"
     },
     "resolutions": {
-        "**/@playwright/test": "^1.60.0"
+        "@playwright/test": "^1.60.0"
     },
     "dependencies": {
         "@emotion/react": "^11.11.1",
