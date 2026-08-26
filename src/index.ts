@@ -67,7 +67,7 @@ import { RunTimeSerive } from './runtime/runtimeService';
 import { Notification } from '@jupyterlab/apputils';
 import { BigQueryService } from './bigQuery/bigQueryService';
 
-// TEMP COMMENT
+// TEMP COMMENT - trigger again
 
 const iconDpms = new LabIcon({
   name: 'launcher:dpms-icon',
